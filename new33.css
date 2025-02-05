@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .filter-btn {
+        flex: 1 1 45%;
+        margin: 5px;
+    }
+}
